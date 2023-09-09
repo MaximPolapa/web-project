@@ -1,0 +1,54 @@
+.contactSection{
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+.registration-form {
+    background-color: #414141;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.7);
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 30px;
+}
+
+.registration-form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.registration-form input[type="text"], 
+.registration-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #333;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.registration-form textarea {
+    height: 100px;
+}
+
+.registration-form button {
+    background-color: #0043fa;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}

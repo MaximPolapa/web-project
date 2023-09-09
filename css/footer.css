@@ -1,0 +1,28 @@
+.linksOnSection{
+    background-color: rgba(111, 111, 111, 0.694);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer_button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: rgb(227, 227, 227);
+    background-color: #27272700;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    padding-bottom: 15px;
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+/* Hover styles */
+.footer_button:hover {
+    color: gray;
+    background-color: #0043fa;
+    border-color: #0043fa;
+}

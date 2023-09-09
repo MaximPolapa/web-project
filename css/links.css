@@ -1,0 +1,19 @@
+.socialsLinks{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    padding-top: 40px;
+}
+.contactLocation{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+    padding-top: 50px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+.contactDetails{
+    padding-top: 30px;
+}

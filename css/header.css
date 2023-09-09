@@ -1,0 +1,54 @@
+
+.inner_wrap_logo {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.header {
+  width: auto;
+  height: 788px;
+  background-image: url(../img/header-background.png) ;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  /*min-height: var(--header-background-height);*/
+}
+
+.header__main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+.header_text{
+  text-align: center;
+  position: relative;
+  top: 120px;
+  
+}
+.header_button_container {
+  height: 100vh; /* Вы можете установить желаемую высоту */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header_button {
+  padding: 20px 60px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: azure;
+  border-radius: 25%;
+  background: transparent;
+  border: 1px solid rgba(240, 255, 255, 0.553);
+  color: azure;
+  font-size: 20px;
+  transition: background 0.3s, color 0.3s;
+  text-decoration: none;
+}
+
+.header_button:hover {
+  background: -moz-radial-gradient(center, #272727 0%, #0043fa 50%, #006eff 100%);
+  background: -webkit-radial-gradient(center, #272727 0%, #0043fa 50%, #006eff 100%);
+  background: radial-gradient(ellipse at center, #272727 0%, #0043fa 50%, #006eff 100%);
+  color: white;
+}

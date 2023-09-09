@@ -1,0 +1,122 @@
+.price{
+    background-color: #2a2a2a;
+    color: rgb(255, 255, 255);
+}
+.sectionPrise {
+    background-color: rgba(0, 34, 255, 0.783);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: solid;
+    display:inline-table;
+    border-radius: 20px;
+    margin-bottom: 80px;
+    font-size: 25px;
+    text-align: center; /* Center text horizontally */
+    width: 260px;
+    height: 450px; /* Make sure each div takes full height of the parent */
+}
+.blockPrice{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;  
+}
+.sectionPrise:last-child{
+    margin-bottom: 0px;
+}
+.numberTextStyle{
+    font-size: 80px; 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    text-align: left;
+    margin-left: 30px; 
+    font-weight: 700;  
+}
+.priceOfSubscribe{
+    display: inline-block;
+    margin-right: 10px;
+}
+.pricing-container {
+    display: flex;
+}
+
+.pricing-block {
+    background: linear-gradient(180deg, #272727 0%, #0043fa 50%, #006eff 100%);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 60px;
+    text-align: center;
+    width: 250px;
+    height: 450px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.textForTitle {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 35px;
+    margin: 0;
+}
+
+.textForBody {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    margin: 10px 0;
+}
+.textForDescription{
+    font-size: 25px;
+    margin: 10px 0;
+    margin-top: 10px;
+}
+
+.product-description {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.product-description h3 {
+    font-size: 16px;
+    margin: 0 0 10px;
+}
+
+.product-description ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.product-description ul li {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+button {
+    background-color: #fff;
+    color: #0043fa;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin-top: 50px;
+}
+
+button:hover {
+    background-color: #0043fa;
+    color: #fff;
+}
+.priceBlock{
+    display: flex;
+    justify-content: center; /* Горизонтальне центрування */
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
